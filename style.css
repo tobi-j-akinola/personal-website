@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  background-color: #f8f6f4;
+}
+
+body {
+  background-color: #f8f6f4;
+}
+
+.introduction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: space-around;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.9rem;
+  color: #0a4d68;
+  background-color: #c4dfdf;
+}
+
+.links-container {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  gap: 20px;
+  width: 600px;
+  justify-self: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  width: 600px;
+  font-size: 2.5rem;
+  font-family: "Castoro Titling", cursive;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.starter-pics-container {
+  display: flex;
+  height: 600px;
+  margin-top: 0px;
+  justify-content: space-around;
+  background-color: #c4dfdf;
+  align-items: center;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: #e3f4f4;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.background_colour {
+  background-color: #c4dfdf;
+}
+
+.center {
+  text-align: center;
+}
+.white-border {
+  border-color: #f8f6f4;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.div_center {
+  justify-content: space-evenly;
+}
+
+.h2_style {
+  font-family: "Russo One", sans-serif;
+}
+
+h3 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.9rem;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 900;
+}
+
+.alternate-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+  display: flex;
+  position: sticky;
+  background-color: #c4dfdf;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
